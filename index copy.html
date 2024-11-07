@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mockups</title>
+    <style>
+      body {
+        padding: 1rem;
+        margin: 0 auto;
+        background-color: rgb(255, 255, 246);
+        width: 100%;
+      }
+      .images {
+        display: flex;
+        gap: 3%;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+      }
+      img {
+        width: 31%;
+        min-width: 500px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        margin-bottom: 50px;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+
+      @media (max-width: 1628px) {
+        .images {
+          justify-content: center;
+        }
+      }
+      @media (max-width: 546px) {
+        img {
+          width: 100%;
+          min-width: unset;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="images">
+        <img src="./images/strawberry_crunch_alert.png" />
+        <img src="./images/strawberry_crunch.png" />
+        <img src="./images/royal_velvet.png" />
+        <img class="table" src="./images/social_media_content.jpg" />
+      </div>
+    </div>
+  </body>
+</html>
